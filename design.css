@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+.max-width {
+    max-width: 1300px;
+    padding: 0px 80px;
+    margin: auto;
+}
+
+                            /* navbar styling */
+
+#navbar {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background-color: rgb(216, 103, 103);
+    font-family: 'Ubuntu', sans-serif ;
+    transition: all 0.5s ease;
+}
+#navbar.sticky{
+    padding: 5px 0;
+    background-color: crimson;
+}
+#navbar.sticky .menu-btn {
+    color: black;
+}
+#navbar.sticky .logo a span {
+    color: black;
+    padding: 5px 0;
+    transition: all 0.8s ease;
+}
+#navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+#navbar .logo a:hover {
+    color: gray;
+}
+#navbar.sticky .logo a {
+    color: white;
+}
+#navbar .logo a{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+#navbar .logo a span {
+    color: red;
+}
+#navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+#navbar .menu li a:hover {
+    color: crimson;
+}
+#navbar .menu li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+#navbar.sticky .menu li a:hover {
+    color: gray;
+}
+                    /*menu button styling */
+.menu-btn {
+    color: black;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+                       /* home section styling */
+
+ .home {
+     display: flex;
+     background: url("https://nishant-k02.github.io/portfolio/NishantNew.jpeg") no-repeat center;
+     height: 200vh;
+     color: white;
+     background-size: cover;
+     min-height: 300px;
+     font-family: 'Ubuntu', sans-serif ;
+ }
+ .home .max-width {
+    margin: auto 0 auto 40px;
+ }
+ .home .home-content h1 {
+     font-size: 75px;
+     margin-left: -110px;
+     margin-top: -90px;
+ }
+ .home .home-content h1:hover {
+     padding: 20px;
+     transition: all 1s ease-out;
+ }
+ .home .home-content .text-1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: -3px;
+    margin-top: 10px;
+}
+.home .home-content .text-1:hover {
+    padding: 30px;
+    transition: all 1s ease;
+}
+.home .home-content .text-2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.home .home-content .text-2:hover {
+    padding: 30px;
+    transition: all 1s ease;
+}
+.home .home-content h1 span {
+    color: red;
+}
+.home .home-content .text-2 span {
+    color: orange;
+    font-weight: 500;
+}
+social-icons {
+    text-align: center;
+    }  
+  .social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    }
+  .social-icons li a {
+    border-bottom: none;
+    }
+  .social-icons li img {
+    width: 40px;
+    height:40px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .social-icons li img:hover {
+    padding: 5px;
+    transition: all 1s ease;
+  }
+
+                    /* about- section*/
+    section {
+        padding: 100px 0;
+    }
+    .about{
+        font-family: 'Poppins' , sans-serif;
+        background: url('https://user-images.githubusercontent.com/76222410/116545497-23314580-a90e-11eb-855d-b667c23f0e8a.jpg')  center center fixed;
+        background-size: cover;
+    }  
+    .about .title {
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        color: aquamarine;
+    }
+    .about .title:hover {
+        color: aqua ;
+        font-size: 45px;
+        transition: 1s ease-out;
+    }
+   
+    .about .about-content .left img {
+        height: 350px;
+        width: 400px;
+        border-radius: 80px;
+        margin-left: 10%;
+    }
+    .about .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items:unset;
+        justify-content: space-between;
+    }
+    .about .about-content .left {
+        width: 45%;
+    }
+    .about .about-content .right {
+        width: 55%;
+        color: white;
+    }
+    .about .about-content .right .text {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .about .about-content .right p {
+        text-align: justify;
+    }
+    .about .about-content .column {
+        width: 50%;
+    }
+    p {
+        margin-top: 5%;
+    }
+    p span {
+        font-weight: 600;
+    }
+
+
+                        /* Project Section */
+   
+.project {
+    background:  url('https://78.media.tumblr.com/167086211f3eb2e1bc528c619cccbcbe/tumblr_p8l27797nR1ux732ao1_1280.jpg') no-repeat center center fixed;
+    width: 100%;
+    background-size: cover ;
+}                
+.title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.project .title:hover {
+    color: gray ;
+    font-size: 45px;
+    transition: 0.6s ease-out;
+    box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
+}
+h2 span {
+    color: palevioletred;
+}
+img {
+    width: 30%;
+    height: 30%;
+}
+.portfolio-item {
+    width: 100%;
+    color: black;
+    right: 0;
+    border: 1px outset rgba(255, 255, 255, 0.6);
+   
+    }
+    .portfolio-item:hover {
+        transition: 0.5s;
+        box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
+  }
+  .portfolio-item i {
+     color: red; 
+  }
+
+
+                            /*Skills Section */
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    /* media queries */
+                    
+@media (max-width: 790px) {
+    .max-width {
+        padding: 0px 50px;
+    }
+    .menu-btn {
+        color: red;
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+    #navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: black;
+        text-align: center;
+        padding-top: 150px;
+        transition: all 0.3s ease;
+    }
+    #navbar .menu.active {
+        left: 0;
+    }
+    #navbar .menu li {
+        display: block;
+    }
+    #navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+        color: white;
+    }
+    #navbar .menu li a:hover {
+        color: crimson;
+    }
+    #navbar.sticky .menu li a:hover {
+        color: crimson;
+    }
+    #navbar.sticky .menu-btn {
+        color: orange;
+    }
+    .home .home-content h1 {
+        font-size: 50px;
+        margin-left: -53px;
+        margin-top: -90px;
+    }
+    .home .home-content h1:hover {
+        padding: 10px;
+        transition: all 0.8s ease;
+    }
+    .home .home-content .text-1 {
+       font-size: 25px;
+   }
+   .home .home-content .text-1:hover {
+       padding: 30px;
+       transition: all 1s ease;
+   }
+   .home .home-content .text-2 {
+       font-size: 20px;
+   }
+   .home .home-content .text-2:hover {
+       padding: 25px;
+       transition: all 1s ease;
+   }
+   .home .home-content h1 span {
+       color: red;
+   }
+   .home .home-content .text-2 span {
+       color: orange;
+       font-weight: 500;
+   }
+   .social-icons li img {
+    width: 35px;
+    height: 35px;
+    margin-right: 0px;
+    margin-top: 35px;
+    margin-left: 40px;
+  }
+  .about .about-content .left img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.about .about-content .column {
+    width: 40%;
+}
+
+}
+@media (max-width: 690px) {
+    .max-width {
+        padding: 0 23px;
+    }
+    
+    .home .home-content .text-1 {
+        font-size: 15px;
+        margin-left: -30px;
+    }
+    .home .home-content .text-2 {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .home .home-content h1:hover {
+        padding: 10px;
+        transition: all 1s ease
+    }
+    .home .home-content .text-1:hover {
+        padding: 20px;
+        transition: all 1s ease;
+    }
+    .home .home-content .text-2:hover {
+        padding: 20px;
+        transition: all 1s ease;
+    }
+    .social-icons li img {
+        width: 25px;
+        height:25px;
+        margin-right: 22px;
+        margin-top: 25px;
+        margin-left: -10px;
+      }
+      .home .home-content h1 {
+        font-size: 30px;
+        margin-left: -53px;
+        margin-top: -90px;
+    }
+    .about .about-content .left img {
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+    }
+    .about .about-content .column {
+        width: 40%;
+    }
+    .home {
+        background: url('https://nishant-k02.github.io/portfolio/nk1.jpg') no-repeat center;
+        height: 130vh;
+        margin-bottom: -10px;
+    }
+}
+@media only screen and (max-width: 1100px) and (min-width:450px) {
+    .about .about-content .left img {
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+    }
+    .about .about-content .column {
+        width: 40%;
+    }
+    .about .about-content .right .text {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        margin-left: -15%;
+    }
+    .about .about-content .right p {
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        margin-left: -15%;
+    }
+}
+
+
+
+
